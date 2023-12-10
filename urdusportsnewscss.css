@@ -1,0 +1,56 @@
+ body {
+            font-family: 'Noto Nastaliq Urdu', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #637E76;
+            color: #191919;
+            text-align: center;
+            text-decoration: underline;
+            padding: 10px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #9AD0C2;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+        h2 {
+            color: #092635;
+            text-align: center;
+        }
+
+        .news-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+
+        .news-item:last-child {
+            border-bottom: none;
+        }
+
+        .news-item h3 {
+            color: #092635;
+            text-align: center;
+        }
+
+        .news-item p {
+            color: #1B4242;
+            text-align: justify;
+            
+        }
+
+        div img {
+            float: right;
+            max-width: 400px;
+            height: 200px;
+            border-radius: 5px;
+        
+        }
